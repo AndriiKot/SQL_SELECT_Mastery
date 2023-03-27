@@ -26,6 +26,7 @@ VALUES
 (3,'To Kill a Mockingbird','3424254456'),
 (4,'The Book of Gutsy Women','12344532');
 
+
 INSERT INTO publisher
 VALUES
 (1,'Evereman''s Library','NY'),
