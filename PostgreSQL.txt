@@ -19,6 +19,12 @@ CREATE TABLE book
 DROP TABLE publisher;
 DROP TABLE book;
 
+INSERT INTO book
+VALUES
+(1,'The Diary of a Young Girl','0123403430430'),
+(2,'Pride and Prejudice','93232304204'),
+(3,'To Kill a Mockingbird','3424254456'),
+(4,'The Book of Gutsy Women','12344532');
 
 
 
