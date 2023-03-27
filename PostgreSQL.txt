@@ -43,3 +43,4 @@ WHERE pg_stat_activity.datname = 'testdb'
 
 DROP DATABASE testdb
 
+"test string"
