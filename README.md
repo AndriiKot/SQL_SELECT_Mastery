@@ -1,6 +1,6 @@
 # PostgreSQL-lesson-1
 PostgreSQL Lesson 1
-
+```sql
 CREAT DATABASE testdb
 
 
@@ -12,5 +12,7 @@ WHERE pg_stat_activity.datname = 'testdb'
 
 
 DROP DATABASE testdb
+
+```
 
 
