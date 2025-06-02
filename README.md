@@ -1,6 +1,5 @@
 # SQL SELECT Mastery
 
-contact me: http://t.me/Andrey_Kotsiuba
 <table>
   <thead>
     <tr>
