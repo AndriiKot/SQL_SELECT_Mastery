@@ -22,3 +22,28 @@
     </tr>
   </tbody>
 </table>
+
+Here is a short course description for a DML (Data Manipulation Language) course involving PostgreSQL and DBeaver, focusing only on the SELECT statement in English for a Git repository:
+
+**Course Title: Mastering SQL SELECT Statements with PostgreSQL and DBeaver**
+
+**Course Description:**
+
+This course is designed to provide a comprehensive understanding of the SQL SELECT statement, a fundamental component of the Data Manipulation Language (DML). Participants will learn how to effectively retrieve and manipulate data from PostgreSQL databases using the powerful SELECT statement.
+
+Through hands-on exercises and real-world examples, learners will explore various aspects of the SELECT statement, including:
+
+1. **Basic SELECT Syntax**: Understand the structure and components of the SELECT statement, such as the SELECT, FROM, and WHERE clauses.
+2. **Column Selection**: Learn how to select specific columns, use aliases, and perform calculations within the SELECT statement.
+3. **Filtering Data**: Discover techniques for filtering data using the WHERE clause, including the use of comparison operators, logical operators, and pattern matching.
+4. **Sorting and Limiting Results**: Explore ways to sort the retrieved data using the ORDER BY clause and limit the number of rows returned using the LIMIT and OFFSET clauses.
+5. **Aggregate Functions**: Understand how to use aggregate functions, such as SUM, AVG, COUNT, MIN, and MAX, to perform calculations on groups of rows.
+6. **Joining Tables**: Learn how to combine data from multiple tables using various join types, including INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.
+7. **Subqueries**: Explore the use of subqueries within the SELECT statement to perform complex data retrieval and filtering.
+8. **DBeaver Integration**: Utilize the DBeaver database management tool to execute SELECT statements, visualize data, and manage your PostgreSQL database.
+
+By the end of this course, participants will have a strong understanding understanding of the SELECT statement and its capabilities, empowering them to efficiently retrieve and manipulate data in their PostgreSQL-based projects and applications.
+
+**Git Repository:**
+The course materials, including lecture slides, code examples, and exercise files, will be hosted in a dedicated Git repository for easy access and collaboration.
+
