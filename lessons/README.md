@@ -2,5 +2,5 @@
 
 ## Lessons
 
-[1.](/lessons/_001_lesson/)
+[1. Get the columns](/lessons/_001_lesson/)
 
