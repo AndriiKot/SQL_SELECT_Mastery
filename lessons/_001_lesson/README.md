@@ -56,7 +56,8 @@ SELECT
 FROM
     actor;
 ```
-  Yes, you can output a column multiple times in the same query.
+ 
+4. Yes, you can output a column multiple times in the same query.
 
 [back to top](#title)
 
