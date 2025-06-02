@@ -28,7 +28,7 @@ FROM
 <details>
   <summary>
 
-#### Solution
+### Solution
 
   </summary>
 
