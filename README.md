@@ -12,12 +12,12 @@ contact me: http://t.me/Andrey_Kotsiuba
     <tr>
       <td height=100 width=100>
         <a href=https://www.postgresql.org/docs/>
-          <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/postgresql.svg alt=PostgreSQL>
+          <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/postgresql.svg alt=PostgreSQL>
         </a>
       </td>
       <td height=100 width=100>
         <a href=https://dbeaver.com/docs/dbeaver/>
-          <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/dbeaver.svg alt=DBeaver>
+          <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/dbeaver.svg alt=DBeaver>
         </a>
       </td>
     </tr>
