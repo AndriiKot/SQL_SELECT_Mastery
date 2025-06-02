@@ -2,5 +2,5 @@
 
 ## Lessons
 
-[1.](/lessons/_001_lesson/README.md)
+[1.](/lessons/_001_lesson/)
 
