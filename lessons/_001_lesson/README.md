@@ -67,6 +67,21 @@ FROM
 ```
 
 4. Yes, you can output a column multiple times in the same query.
+
+##### For example:
+
+```sql
+SELECT
+    actor_id,
+    first_name,
+    last_name,
+    last_update,
+    actor_id,
+    last_name,
+    last_name
+FROM
+    actor;
+```
 </details>
 
 [back to top](#title)
