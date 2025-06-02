@@ -16,7 +16,7 @@
           <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/postgresql.svg alt=PostgreSQL>
         </a>
       </td>
-      <td height=100 width=100>
+      <td height=100 width=200>
         <a href=https://dbeaver.com/docs/dbeaver/>
           <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/dbeaver.svg alt=DBeaver>
         </a>
