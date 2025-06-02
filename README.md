@@ -49,3 +49,4 @@ By the end of this course, participants will have a strong understanding underst
 The course materials, including lecture slides, code examples, and exercise files, will be hosted in a dedicated Git repository for easy access and collaboration.
 
 [back to top](#title)
+
