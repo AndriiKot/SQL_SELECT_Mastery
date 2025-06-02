@@ -4,7 +4,7 @@
 
 - ### Get the columns by column name
 
-- ### Get the columns by *
+- ### Get the columns by \*
 
 #### Exercise
 
@@ -22,11 +22,18 @@ SELECT
 FROM
     actor;
 ```
+
 4. Can you output a column multiple times in the same query?
+
+<details>
+  <summary>
 
 #### Solution
 
+  </summary>
+
 1. Retrieve all columns from the 'actor' table using the column names.
+
 ```sql
 SELECT
     actor_id,
@@ -38,6 +45,7 @@ FROM
 ```
 
 2. Retrieve all columns from the 'actor' table without using the column names.
+
 ```sql
 SELECT
     *
@@ -46,6 +54,7 @@ FROM
 ```
 
 3. The following query is valid.
+
 ```sql
 SELECT
     actor_id,
@@ -56,9 +65,8 @@ SELECT
 FROM
     actor;
 ```
- 
+
 4. Yes, you can output a column multiple times in the same query.
+</details>
 
 [back to top](#title)
-
-
