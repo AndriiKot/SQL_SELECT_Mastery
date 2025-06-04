@@ -8,8 +8,8 @@
 
 #### Exercise
 
-1. Retrieve all columns from the 'actor' table using the column names.
-2. Retrieve all columns from the 'actor' table without using the column names.
+1. Get all columns from the 'actor' table using the column names.
+2. Get all columns from the 'actor' table without using the column names.
 3. Is the following query valid?
 
 ```sql
@@ -32,7 +32,7 @@ FROM
 
   </summary>
 
-1. Retrieve all columns from the 'actor' table using the column names.
+1. Get all columns from the 'actor' table using the column names.
 
 ```sql
 SELECT
@@ -44,7 +44,7 @@ FROM
     actor;
 ```
 
-2. Retrieve all columns from the 'actor' table without using the column names.
+2. Get all columns from the 'actor' table without using the column names.
 
 ```sql
 SELECT
