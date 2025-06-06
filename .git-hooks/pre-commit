@@ -70,11 +70,13 @@ const writeReadmeToPaths = async (paths, content) => {
 
   lessons.sort((a, b) => a.number - b.number);
 
+
   const links = lessons.map(
-    ({ number, title, folder }) => `[${number}. ${title}](/${LESSONS_DIR}/${folder}/)`
+    ({ number, title, folder }) => `- [${number}. ${title}](/${LESSONS_DIR}/${folder}/)`
   );
 
-  const finalReadmeContent = `${README_HEADER}\n\n${links.join("\n\n")}\n`;
+
+  const finalReadmeContent = `${README_HEADER}\n${links.join("\n")}\n`;
 
   const outputPaths = [
     path.join(projectRoot, NAVIGATION_DIR, README_NAME),
