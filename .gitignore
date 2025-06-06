@@ -1,2 +1,2 @@
 !*.svg
-!./tools/lib/*.js
+!/tools/lib/*.js
