@@ -3,15 +3,22 @@ const fs = require("node:fs/promises");
 const { execSync } = require("node:child_process");
 
 const getFoldersOnly = async (dirPath) => {
-  const entries = await fs.readdir(dirPath, { withFileTypes: true });
-  return entries.filter((e) => e.isDirectory()).map((e) => e.name);
+  try {
+    const entries = await fs.readdir(dirPath, { withFileTypes: true });
+    return entries
+      .filter((e) => e.isDirectory() && !e.name.startsWith("."))
+      .map((e) => e.name);
+  } catch (error) {
+    console.error(`Failed to read directory ${dirPath}:`, error.message);
+    return [];
+  }
 };
 
 const getLessonNumber = (folderName) =>
   folderName.replace(/\D+/gu, "").replace(/^0+/, "");
 
 const getH2Heading = (content) => {
-  const match = content.match(/^##\s*(.+?)(?:\s*:)?\s*$/m);
+  const match = content.match(/^[ \t]*##[ \t]+([^:\n]+)/m);
   return match ? match[1].trim() : null;
 };
 
@@ -24,16 +31,17 @@ const readReadmeFile = async (filePath) => {
   }
 };
 
-const writeReadmeToPaths = async (paths, content) => {
+const writeReadmeToPaths = async (paths, content, skipGitAdd = false) => {
   for (const filePath of paths) {
     try {
       await fs.writeFile(filePath, content, "utf-8");
       console.log(`✅ README.md generated: ${filePath}`);
-      execSync(`git add "${filePath}"`);
-      console.log(`✅ README.md add ${filePath} to git index`);
+      if (!skipGitAdd) {
+        execSync(`git add "${filePath}"`);
+        console.log(`✅ README.md add ${filePath} to git index`);
+      }
     } catch (error) {
       console.error(`❌ Failed to write ${filePath}:`, error.message);
-      console.error(`❌ Failed adding README.md:`, error.message);
       process.exit(1);
     }
   }
