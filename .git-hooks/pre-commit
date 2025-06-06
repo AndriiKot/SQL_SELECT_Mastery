@@ -1,11 +1,30 @@
 #!/usr/bin/env node
 
-const path = require("path");
-const { execSync } = require("child_process");
+const path = require("node:path");
+const { execSync } = require("node:child_process");
+const fs = require("node:fs/promises");
 
 const util = require("node:util");
 const exec = util.promisify(require("node:child_process").exec);
 
 const projectRoot = path.join(__dirname, "..");
 
-console.log(projectRoot);
+const getFoldersOnly = async (dirPath) => {
+  const entries = await fs.readdir(dirPath, { withFileTypes: true });
+  return entries
+    .filter(entry => entry.isDirectory())
+    .map(entry => entry.name);
+};
+
+const getNumberLesson = (nameFolder) => {
+  return nameFolder.replace(/\D+/gu, '').replace(/^[0]{1,}/gu, '')
+};
+
+
+(async () => {
+  const dirPath = path.join(projectRoot, "lessons");
+  const folders = await getFoldersOnly(dirPath);
+  console.log(folders);
+  const numbers = folders.map((el) => getNumberLesson(el))
+  console.log(numbers);
+})();
