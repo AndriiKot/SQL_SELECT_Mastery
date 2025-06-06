@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "git config core.hooksPath ../.git-hooks || echo 'Not in a git repo'"
   },
   "devDependencies": {
     "jest": "^29.0.0",
