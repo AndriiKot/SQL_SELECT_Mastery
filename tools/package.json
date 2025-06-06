@@ -1,0 +1,13 @@
+{
+  "name": "Automation Project SQL-DML-SELECT",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "mock-fs": "^5.0.0"
+  }
+}
+
