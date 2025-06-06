@@ -2,9 +2,6 @@
 
 const path = require("node:path");
 const fs = require("node:fs/promises");
-const util = require("node:util");
-const { execSync } = require("node:child_process");
-const exec = util.promisify(require("node:child_process").exec);
 
 // Constants
 const LESSONS_DIR = "lessons";
