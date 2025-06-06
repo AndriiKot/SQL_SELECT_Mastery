@@ -1,5 +1,5 @@
 {
-  "name": "Automation Project SQL-DML-SELECT",
+  "name": "automation-project-sql-dml-select",
   "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
@@ -11,4 +11,3 @@
     "mock-fs": "^5.0.0"
   }
 }
-
