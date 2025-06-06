@@ -1,14 +1,21 @@
 #!/usr/bin/env node
 
 const path = require("node:path");
-const { execSync } = require("node:child_process");
 const fs = require("node:fs/promises");
-
 const util = require("node:util");
+const { execSync } = require("node:child_process");
 const exec = util.promisify(require("node:child_process").exec);
 
+// Constants
+const LESSONS_DIR = "lessons";
+const NAVIGATION_DIR = "lessons_navigation";
+const README_NAME = "README.md";
+const README_HEADER = `<a id="title"></a>\n\n## Lessons:\n`;
+
+// Get absolute path to the project root
 const projectRoot = path.join(__dirname, "..");
 
+// Get only folder names in the specified directory
 const getFoldersOnly = async (dirPath) => {
   const entries = await fs.readdir(dirPath, { withFileTypes: true });
   return entries
@@ -16,33 +23,66 @@ const getFoldersOnly = async (dirPath) => {
     .map(entry => entry.name);
 };
 
-const getNumberLesson = (nameFolder) => {
-  return nameFolder.replace(/\D+/gu, '').replace(/^[0]{1,}/gu, '')
-};
+// Extract numeric lesson number from folder name
+const getLessonNumber = (folderName) =>
+  folderName.replace(/\D+/gu, '').replace(/^0+/, '');
 
-const getH2Readme = (str) => {
-  const match = str.match(/^##\s*(.+?)(?:\s*:)?\s*$/m);
+// Extract first level-2 heading (##) from README content
+const getH2Heading = (content) => {
+  const match = content.match(/^##\s*(.+?)(?:\s*:)?\s*$/m);
   return match ? match[1].trim() : null;
 };
 
-const someREADME =  `
-# Overview
+// Read content of README.md file
+const readReadmeFile = async (filePath) => {
+  try {
+    return await fs.readFile(filePath, 'utf-8');
+  } catch (error) {
+    console.error(`Failed to read ${filePath}:`, error.message);
+    return null;
+  }
+};
 
-## Field Naming and Aliases:
-
-A field is a column...
-
-## Something Else:
-
-More text here.
-`;
-
+// Write README content to multiple paths
+const writeReadmeToPaths = async (paths, content) => {
+  for (const filePath of paths) {
+    try {
+      await fs.writeFile(filePath, content, 'utf-8');
+      console.log(`✅ README.md generated: ${filePath}`);
+    } catch (error) {
+      console.error(`❌ Failed to write ${filePath}:`, error.message);
+    }
+  }
+};
 
 (async () => {
-  const dirPath = path.join(projectRoot, "lessons");
-  const folders = await getFoldersOnly(dirPath);
-  console.log(folders);
-  const numbers = folders.map((el) => getNumberLesson(el));
-  console.log(numbers);
-  console.log(getH2Readme(someREADME));
+  const lessonsPath = path.join(projectRoot, LESSONS_DIR);
+  const folders = await getFoldersOnly(lessonsPath);
+
+  const lessons = [];
+
+  for (const folder of folders) {
+    const readmePath = path.join(lessonsPath, folder, README_NAME);
+    const content = await readReadmeFile(readmePath);
+    if (!content) continue;
+
+    const title = getH2Heading(content) || "Untitled";
+    const number = getLessonNumber(folder);
+    lessons.push({ number: parseInt(number), title, folder });
+  }
+
+  lessons.sort((a, b) => a.number - b.number);
+
+  const links = lessons.map(
+    ({ number, title, folder }) => `[${number}. ${title}](/${LESSONS_DIR}/${folder}/)`
+  );
+
+  const finalReadmeContent = `${README_HEADER}\n${links.join("\n")}\n`;
+
+  const outputPaths = [
+    path.join(projectRoot, NAVIGATION_DIR, README_NAME),
+    path.join(projectRoot, LESSONS_DIR, README_NAME),
+  ];
+
+  await writeReadmeToPaths(outputPaths, finalReadmeContent);
 })();
