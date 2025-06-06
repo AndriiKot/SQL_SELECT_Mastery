@@ -20,11 +20,29 @@ const getNumberLesson = (nameFolder) => {
   return nameFolder.replace(/\D+/gu, '').replace(/^[0]{1,}/gu, '')
 };
 
+const getH2Readme = (str) => {
+  const match = str.match(/^##\s*(.+?)(?:\s*:)?\s*$/m);
+  return match ? match[1].trim() : null;
+};
+
+const someREADME =  `
+# Overview
+
+## Field Naming and Aliases:
+
+A field is a column...
+
+## Something Else:
+
+More text here.
+`;
+
 
 (async () => {
   const dirPath = path.join(projectRoot, "lessons");
   const folders = await getFoldersOnly(dirPath);
   console.log(folders);
-  const numbers = folders.map((el) => getNumberLesson(el))
+  const numbers = folders.map((el) => getNumberLesson(el));
   console.log(numbers);
+  console.log(getH2Readme(someREADME));
 })();
