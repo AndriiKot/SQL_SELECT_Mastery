@@ -1,10 +1,10 @@
 {
-  "name": "Automation Project SQL-DML-SELECT",
+  "name": "automation-project-sql-dml-select",
   "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
     "test": "jest",
-    "prepare": "git config core.hooksPath ../.git-hooks || echo 'Not in a git repo'"
+    "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'"
   },
   "devDependencies": {
     "jest": "^29.0.0",
