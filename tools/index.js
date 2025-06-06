@@ -1,4 +1,5 @@
 const path = require("node:path");
+//const { execSync } = require("node:child_process");
 const { getFoldersOnly, getLessonNumber, getH2Heading, readReadmeFile, writeReadmeToPaths } = require("./lib/utils");
 
 const LESSONS_DIR = "lessons";
