@@ -53,7 +53,7 @@
             </a>
           </td>
           <td height=100 width=100>
-            <a href=https://docs.github.com/en/actions>
+            <a href=https://git-scm.com/docs/git-hook>
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githooks.svg alt="Git hooks">
             </a>
           </td>
@@ -63,7 +63,7 @@
             </a>
           </td>
           <td height=100 width=100>
-            <a href=https://farmanager.com/index.php?l=en target="_blank">
+            <a href=https://farmanager.com/index.php?l=en>
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg alt="FarManager">
             </a>
           </td>
