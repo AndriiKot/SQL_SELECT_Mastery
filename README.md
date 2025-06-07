@@ -61,6 +61,17 @@
             <a href=https://github.com/features/actions/>
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/github-actions.svg alt="GitHub Actions">
             </a>
+          </td>
+          <td height=100 width=100>
+            <a href=https://farmanager.com/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg alt="FarManager">
+            </a>
+          </td>
+          <td height=100 width=100>
+            <a href=https://code.visualstudio.com/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/vscode.svg alt="VS Code">
+            </a>
+          </td>
     </tbody>
   </table>
 </details>
