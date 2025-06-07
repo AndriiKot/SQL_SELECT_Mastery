@@ -63,12 +63,12 @@
             </a>
           </td>
           <td height=100 width=100>
-            <a href=https://farmanager.com/>
+            <a href=https://farmanager.com/index.php?l=en target="_blank">
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg alt="FarManager">
             </a>
           </td>
           <td height=100 width=100>
-            <a href=https://code.visualstudio.com/>
+            <a href=https://code.visualstudio.com/ target="_blank">
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/visual-studio-code.svg alt="VS Code">
             </a>
           </td>
