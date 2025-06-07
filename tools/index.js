@@ -1,4 +1,16 @@
 const path = require("node:path");
+const { execSync } = require("node:child_process");
+
+const toolsDir = __dirname;
+
+try {
+  execSync("npm run format", { stdio: "inherit", cwd: toolsDir });
+  execSync("npm run lint", { stdio: "inherit", cwd: toolsDir });
+} catch (err) {
+  console.error("Error while running format or lint:", err.message);
+  process.exit(1);
+}
+
 const {
   getFoldersOnly,
   getLessonNumber,
