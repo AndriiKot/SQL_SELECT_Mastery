@@ -27,7 +27,7 @@
 
 <details>
   <summary>
-    <h3>Other Technologies and Tools</h3>
+    <h4>Other Technologies and Tools</h4>
   </summary>
   <table>
     <thead>
@@ -76,9 +76,9 @@
   </table>
 </details>
 
-#### Course Title: Mastering SQL SELECT Statements with PostgreSQL and DBeaver
+### Course Title: Mastering SQL SELECT Statements with PostgreSQL and DBeaver
 
-### Course Description:
+#### Course Description:
 
 This course is designed to provide a comprehensive understanding of the SQL SELECT statement, a fundamental component of the Data Manipulation Language (DML). Participants will learn how to effectively retrieve and manipulate data from PostgreSQL databases using the powerful SELECT statement.
 
