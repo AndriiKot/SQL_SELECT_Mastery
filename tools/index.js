@@ -1,5 +1,11 @@
 const path = require("node:path");
-const { getFoldersOnly, getLessonNumber, getH2Heading, readReadmeFile, writeReadmeToPaths } = require("./lib/utils");
+const {
+  getFoldersOnly,
+  getLessonNumber,
+  getH2Heading,
+  readReadmeFile,
+  writeReadmeToPaths,
+} = require("./lib/utils");
 
 const LESSONS_DIR = "lessons";
 const NAVIGATION_DIR = "lessons_navigation";
@@ -27,7 +33,8 @@ const projectRoot = path.join(__dirname, "..");
   lessons.sort((a, b) => a.number - b.number);
 
   const links = lessons.map(
-    ({ number, title, folder }) => `- [${number}. ${title}](/${LESSONS_DIR}/${folder}/)`
+    ({ number, title, folder }) =>
+      `- [${number}. ${title}](/${LESSONS_DIR}/${folder}/)`,
   );
 
   const finalReadmeContent = `${README_HEADER}\n${links.join("\n")}\n`;
@@ -39,4 +46,3 @@ const projectRoot = path.join(__dirname, "..");
 
   await writeReadmeToPaths(outputPaths, finalReadmeContent);
 })();
-
