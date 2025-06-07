@@ -59,7 +59,7 @@
           </td>
           <td height=100 width=100>
             <a href=https://github.com/features/actions/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactions.svg alt="GitHub Actions">
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactionsdarkstheme.svg alt="GitHub Actions">
             </a>
           </td>
           <td height=100 width=100>
