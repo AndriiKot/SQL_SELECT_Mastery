@@ -25,6 +25,45 @@
   </tbody>
 </table>
 
+<details>
+  <summary>
+    <h3>Other Technologies and Tools</h3>
+  </summary>
+  <table>
+    <thead>
+      <tr>
+        <th height=33 width=100>NodeJS</th>
+        <th height=33 width=100>Jest</th>
+        <th height=33 width=100>Git hooks</th>
+        <th height=33 width=100>GitHub Actions</th>
+        <th height=33 width=100>FarManager</th>
+        <th height=33 width=100>VS Code</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr></tr>
+          <td height=100 width=100>
+            <a href=https://nodejs.org/en/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/nodejs.svg alt=NodeJS>
+            </a>
+          </td>
+          <td height=100 width=100>
+            <a href=https://jestjs.io/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/jest.svg alt=Jest>
+            </a>
+          </td>
+          <td height=100 width=100>
+            <a href=https://git-scm.com/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg alt=Git>
+            </a>
+          </td>
+          <td height=100 width=100>
+            <a href=https://github.com/features/actions/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/github-actions.svg alt="GitHub Actions">
+            </a>
+    </tbody>
+  </table>
+</details>
 
 #### Course Title: Mastering SQL SELECT Statements with PostgreSQL and DBeaver
 
