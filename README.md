@@ -53,13 +53,13 @@
             </a>
           </td>
           <td height=100 width=100>
-            <a href=https://git-scm.com/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg alt=Git>
+            <a href=https://docs.github.com/en/actions>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githooks.svg alt="Git hooks">
             </a>
           </td>
           <td height=100 width=100>
             <a href=https://github.com/features/actions/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/github-actions.svg alt="GitHub Actions">
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactions.svg alt="GitHub Actions">
             </a>
           </td>
           <td height=100 width=100>
@@ -69,7 +69,7 @@
           </td>
           <td height=100 width=100>
             <a href=https://code.visualstudio.com/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/vscode.svg alt="VS Code">
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/visual-studio-code.svg alt="VS Code">
             </a>
           </td>
     </tbody>
@@ -99,4 +99,3 @@ By the end of this course, participants will have a strong understanding underst
 The course materials, including lecture slides, code examples, and exercise files, will be hosted in a dedicated Git repository for easy access and collaboration.
 
 [back to top](#title)
-
