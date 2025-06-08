@@ -34,6 +34,8 @@
       <tr>
         <th height=33 width=100>NodeJS</th>
         <th height=33 width=100>Jest</th>
+        <th height=33 width=100>Eslint</th>
+        <ht height=33 width=100>Prettier</th>
         <th height=33 width=100>Git hooks</th>
         <th height=33 width=100>GitHub Actions</th>
         <th height=33 width=100>FarManager</th>
@@ -50,6 +52,16 @@
           <td height=100 width=100>
             <a href=https://jestjs.io/>
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/jest.svg alt=Jest>
+            </a>
+          </td>
+          <td height=100 width=100>
+            <a href=https://eslint.org/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/eslint.svg alt=Eslint>
+            </a>
+          </td>
+          <td height=100 width=100>
+            <a href=https://prettier.io/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/prettier.svg alt=Prettier>
             </a>
           </td>
           <td height=100 width=100>
