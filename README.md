@@ -41,23 +41,23 @@
     <tbody>
       <tr>
           <td height=100 width=100>
-            <a href=https://git-scm.com/doc>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg alt="Git">
+            <a href=https://nodejs.org/en/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/nodejs.svg alt=NodeJS>
             </a>
           </td>
           <td height=100 width=100>
-            <a href=https://git-scm.com/docs/git-hook>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git-hooks.svg alt="Git hooks">
+            <a href=https://jestjs.io/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/jest.svg alt=Jest>
             </a>
           </td>
           <td height=100 width=100>
-            <a href=https://github.com/features/actions/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactionsdarkstheme.svg alt="GitHub Actions">
+            <a href=https://eslint.org/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/eslint.svg alt=Eslint>
             </a>
           </td>
           <td height=100 width=100>
-            <a href=https://farmanager.com/index.php?l=en>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg alt="FarManager">
+            <a href=https://prettier.io/>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/prettier.svg alt=Prettier>
             </a>
           </td>
       </tr>
@@ -115,7 +115,6 @@
       </tr>
     </tbody>
   </table>
-
 </details>
 
 ### Course Title: Mastering SQL SELECT Statements with PostgreSQL and DBeaver
