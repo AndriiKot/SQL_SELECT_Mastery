@@ -35,7 +35,7 @@
         <th height=33 width=100>NodeJS</th>
         <th height=33 width=100>Jest</th>
         <th height=33 width=100>Eslint</th>
-        <ht height=33 width=100>Prettier</th>
+        <th height=33 width=100>Prettier</th>
         <th height=33 width=100>Git hooks</th>
         <th height=33 width=100>GitHub Actions</th>
         <th height=33 width=100>FarManager</th>
