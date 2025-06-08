@@ -36,6 +36,7 @@
         <th height=33 width=100>Jest</th>
         <th height=33 width=100>Eslint</th>
         <th height=33 width=100>Prettier</th>
+        <th height=33 width=100>Git</th>
         <th height=33 width=100>Git hooks</th>
         <th height=33 width=100>GitHub Actions</th>
         <th height=33 width=100>FarManager</th>
@@ -62,6 +63,11 @@
           <td height=100 width=100>
             <a href=https://prettier.io/>
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/prettier.svg alt=Prettier>
+            </a>
+          </td>
+          <td height=100 width=100>
+            <a href=https://git-scm.com/doc>
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg alt="Git">
             </a>
           </td>
           <td height=100 width=100>
