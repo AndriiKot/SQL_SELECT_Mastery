@@ -27,39 +27,40 @@
 
 <details>
   <summary>
-    <h4>Other Technologies and Tools</h4>
+    <h4>📦 Other Technologies and Tools</h4>
   </summary>
+
   <table>
     <thead>
       <tr>
         <th height=33 width=100>NodeJS</th>
         <th height=33 width=100>Jest</th>
-        <th height=33 width=100>Eslint</th>
+        <th height=33 width=100>ESLint</th>
         <th height=33 width=100>Prettier</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-          <td height=100 width=100>
-            <a href=https://nodejs.org/en/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/nodejs.svg alt=NodeJS>
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://jestjs.io/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/jest.svg alt=Jest>
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://eslint.org/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/eslint.svg alt=Eslint>
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://prettier.io/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/prettier.svg alt=Prettier>
-            </a>
-          </td>
+        <td height=100 width=100>
+          <a href="https://nodejs.org/en/">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/nodejs.svg" alt="NodeJS">
+          </a>
+        </td>
+        <td height=100 width=100>
+          <a href="https://jestjs.io/">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/jest.svg" alt="Jest">
+          </a>
+        </td>
+        <td height=100 width=100>
+          <a href="https://eslint.org/">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/eslint.svg" alt="ESLint">
+          </a>
+        </td>
+        <td height=100 width=100>
+          <a href="https://prettier.io/">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/prettier.svg" alt="Prettier">
+          </a>
+        </td>
       </tr>
     </tbody>
   </table>
@@ -68,27 +69,27 @@
     <thead>
       <tr>
         <th height=33 width=100>Git</th>
-        <th height=33 width=100>Git hooks</th>
+        <th height=33 width=100>Git Hooks</th>
         <th height=33 width=100>GitHub Actions</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-          <td height=100 width=100>
-            <a href=https://git-scm.com/doc>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg alt="Git">
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://git-scm.com/docs/git-hook>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git-hooks.svg alt="Git hooks">
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://github.com/features/actions/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactionsdarkstheme.svg alt="GitHub Actions">
-            </a>
-          </td>
+        <td height=100 width=100>
+          <a href="https://git-scm.com/doc">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg" alt="Git">
+          </a>
+        </td>
+        <td height=100 width=100>
+          <a href="https://git-scm.com/docs/git-hook">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git-hooks.svg" alt="Git hooks">
+          </a>
+        </td>
+        <td height=100 width=100>
+          <a href="https://github.com/features/actions/">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactionsdarkstheme.svg" alt="GitHub Actions">
+          </a>
+        </td>
       </tr>
     </tbody>
   </table>
@@ -96,25 +97,57 @@
   <table>
     <thead>
       <tr>
-        <th height=33 width=100>FarManager</th>
+        <th height=33 width=100>Far Manager</th>
         <th height=33 width=100>VS Code</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-          <td height=100 width=100>
-            <a href=https://farmanager.com/index.php?l=en>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg alt="FarManager">
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://code.visualstudio.com/ target="_blank">
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/visual-studio-code.svg alt="VS Code">
-            </a>
-          </td>
+        <td height=100 width=100>
+          <a href="https://farmanager.com/index.php?l=en">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg" alt="Far Manager">
+          </a>
+        </td>
+        <td height=100 width=100>
+          <a href="https://code.visualstudio.com/" target="_blank">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/visual-studio-code.svg" alt="VS Code">
+          </a>
+        </td>
       </tr>
     </tbody>
   </table>
+
+---
+
+### 🛠️ Technology Descriptions
+
+- **Node.js**
+  Node.js is used to run scripts that generate documentation and automate various tasks in the repository.
+
+- **Jest**
+  Jest is used to test utility functions and logic related to repository automation and content generation. It helps ensure everything works correctly.
+
+- **ESLint**
+  ESLint helps keep the code clean and consistent by checking for syntax errors and enforcing coding standards.
+
+- **Prettier**
+  Prettier automatically formats the code, making it easier to read and maintain.
+
+- **Git**
+  Git is used for version control, allowing you to track changes, collaborate with others, and manage different versions of the codebase.
+
+- **Git Hooks**
+  Git hooks are used to run scripts automatically at certain points in the Git workflow (like before committing). In this project, they help enforce code quality and automate formatting.
+
+- **GitHub Actions**
+  GitHub Actions is used to automate workflows such as running tests and lint checks on every push or pull request. It helps maintain code quality and stability.
+
+- **Far Manager**
+  Far Manager is a file and archive management tool used for navigating and managing files efficiently, especially in a terminal environment.
+
+- **Visual Studio Code (VS Code)**
+  VS Code is the main code editor used in this project. It supports extensions, formatting tools, and Git integration for a better development experience.
+
 </details>
 
 ### Course Title: Mastering SQL SELECT Statements with PostgreSQL and DBeaver
