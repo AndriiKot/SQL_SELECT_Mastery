@@ -44,7 +44,7 @@
       </tr>
     </thead>
     <tbody>
-        <tr></tr>
+      <tr>
           <td height=100 width=100>
             <a href=https://nodejs.org/en/>
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/nodejs.svg alt=NodeJS>
@@ -90,6 +90,7 @@
               <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/visual-studio-code.svg alt="VS Code">
             </a>
           </td>
+      </tr>
     </tbody>
   </table>
 </details>
