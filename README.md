@@ -32,42 +32,43 @@
   <table>
     <thead>
       <tr>
-        <th height=33 width=100>NodeJS</th>
-        <th height=33 width=100>Jest</th>
-        <th height=33 width=100>Eslint</th>
-        <th height=33 width=100>Prettier</th>
+        <th height="33" width="100">NodeJS</th>
+        <th height="33" width="100">Jest</th>
+        <th height="33" width="100">Eslint</th>
+        <th height="33" width="100">Prettier</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-          <td height=100 width=100>
-            <a href=https://git-scm.com/doc>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg alt="Git">
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://git-scm.com/docs/git-hook>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git-hooks.svg alt="Git hooks">
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://github.com/features/actions/>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactionsdarkstheme.svg alt="GitHub Actions">
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://farmanager.com/index.php?l=en>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg alt="FarManager">
-            </a>
-          </td>
-          <td height=100 width=100>
-            <a href=https://code.visualstudio.com/ target="_blank">
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/visual-studio-code.svg alt="VS Code">
-            </a>
-          </td>
+        <td height="100" width="100">
+          <a href="https://git-scm.com/doc">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg" alt="Git">
+          </a>
+        </td>
+        <td height="100" width="100">
+          <a href="https://git-scm.com/docs/git-hook">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git-hooks.svg" alt="Git hooks">
+          </a>
+        </td>
+        <td height="100" width="100">
+          <a href="https://github.com/features/actions/">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactionsdarkstheme.svg" alt="GitHub Actions">
+          </a>
+        </td>
+        <td height="100" width="100">
+          <a href="https://farmanager.com/index.php?l=en">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg" alt="FarManager">
+          </a>
+        </td>
+        <td height="100" width="100">
+          <a href="https://code.visualstudio.com/" target="_blank">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/visual-studio-code.svg" alt="VS Code">
+          </a>
+        </td>
       </tr>
     </tbody>
   </table>
+</details>
 
   <table>
     <thead>
