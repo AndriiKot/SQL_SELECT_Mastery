@@ -27,19 +27,22 @@ jobs:
           else
             npm install
           fi
+        working-directory: tools
 
       - name: 💅 Run Prettier
         run: npm run format
+        working-directory: tools
 
       - name: 🧹 Run ESLint
         run: npm run lint
+        working-directory: tools
 
       - name: 🧪 Run Tests
         run: npm test
+        working-directory: tools
 
       - name: 📝 Generate README.md files
         run: node tools/index.js
 
       - name: 🔍 Show Git Diff
         run: git --no-pager diff || echo "No changes"
-
