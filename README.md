@@ -66,7 +66,7 @@
           </td>
           <td height=100 width=100>
             <a href=https://git-scm.com/docs/git-hook>
-              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githooks.svg alt="Git hooks">
+              <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git-hooks.svg alt="Git hooks">
             </a>
           </td>
           <td height=100 width=100>
