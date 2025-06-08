@@ -1,5 +1,8 @@
 <a id="title"></a>
 
+![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
+
+
 # SQL SELECT Mastery
 
 <table>
