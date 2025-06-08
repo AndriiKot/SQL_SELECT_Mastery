@@ -23,7 +23,13 @@ Using the `amount` field from the `payment` table, identify the purpose and resu
 
 ---
 
+<details>
+  <summary>
+
 ### Solution
+
+  </summary>
+
 
 1. **Addition (`amount + 2`)**
 
@@ -151,5 +157,8 @@ FROM payment;
 
 * `amount % 4` vs `mod(amount, 4)`: Both return remainder. Use `mod()` for more consistent behavior with different numeric types.
 * `amount / 2` returns decimal, `div(amount, 2)` returns only integer part.
+
+</details>
+
 
 [back to top](#title)
