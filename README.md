@@ -28,18 +28,18 @@
   <tbody>
     <tr>
       <td height=100 width=100>
-        <a href=https://en.wikipedia.org/wiki/SQL>
-          <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/sql.svg alt=SQL>
+        <a href="https://en.wikipedia.org/wiki/SQL">
+          <img src="icons/svg/sql.svg" alt="SQL">
         </a>
       </td>
       <td height=100 width=100>
-        <a href=https://www.postgresql.org/docs/>
-          <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/postgresql.svg alt=PostgreSQL>
+        <a href="https://www.postgresql.org/docs/">
+          <img src="icons/svg/postgresql.svg" alt="PostgreSQL">
         </a>
       </td>
       <td height=100 width=200>
-        <a href=https://dbeaver.com/docs/dbeaver/>
-          <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/dbeaver.svg alt=DBeaver>
+        <a href="https://dbeaver.com/docs/dbeaver/">
+          <img src="icons/svg/dbeaver.svg" alt="DBeaver">
         </a>
       </td>
     </tr>
@@ -58,22 +58,22 @@
         <th height=33 width=100>Ubuntu</th>
       </tr>
     </thead>
-    <tbody></tbody>
+    <tbody>
       <tr>
         <td height=100 width=100>
           <a href="https://www.docker.com/">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/docker.svg" alt="Docker">
+            <img src="icons/svg/docker.svg" alt="Docker">
           </a>
         </td>
         <td height=100 width=100>
           <a href="https://ubuntu.com/">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/ubuntu.svg" alt="Ubuntu">
+            <img src="icons/svg/ubuntu.svg" alt="Ubuntu">
           </a>
         </td>
       </tr>
     </tbody>
   </table>
-  
+
   <table>
     <thead>
       <tr>
@@ -87,22 +87,22 @@
       <tr>
         <td height=100 width=100>
           <a href="https://nodejs.org/en/">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/nodejs.svg" alt="NodeJS">
+            <img src="icons/svg/nodejs.svg" alt="NodeJS">
           </a>
         </td>
         <td height=100 width=100>
           <a href="https://jestjs.io/">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/jest.svg" alt="Jest">
+            <img src="icons/svg/jest.svg" alt="Jest">
           </a>
         </td>
         <td height=100 width=100>
           <a href="https://eslint.org/">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/eslint.svg" alt="ESLint">
+            <img src="icons/svg/eslint.svg" alt="ESLint">
           </a>
         </td>
         <td height=100 width=100>
           <a href="https://prettier.io/">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/prettier.svg" alt="Prettier">
+            <img src="icons/svg/prettier.svg" alt="Prettier">
           </a>
         </td>
       </tr>
@@ -121,17 +121,17 @@
       <tr>
         <td height=100 width=100>
           <a href="https://git-scm.com/doc">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git.svg" alt="Git">
+            <img src="icons/svg/git.svg" alt="Git">
           </a>
         </td>
         <td height=100 width=100>
           <a href="https://git-scm.com/docs/git-hook">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/git-hooks.svg" alt="Git hooks">
+            <img src="icons/svg/git-hooks.svg" alt="Git hooks">
           </a>
         </td>
         <td height=100 width=100>
           <a href="https://github.com/features/actions/">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/githubactionsdarkstheme.svg" alt="GitHub Actions">
+            <img src="icons/svg/githubactionsdarkstheme.svg" alt="GitHub Actions">
           </a>
         </td>
       </tr>
@@ -149,17 +149,18 @@
       <tr>
         <td height=100 width=100>
           <a href="https://farmanager.com/index.php?l=en">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/farmanager.svg" alt="Far Manager">
+            <img src="icons/svg/farmanager.svg" alt="Far Manager">
           </a>
         </td>
         <td height=100 width=100>
-          <a href="https://code.visualstudio.com/" target="_blank">
-            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/visual-studio-code.svg" alt="VS Code">
+          <a href="https://code.visualstudio.com/">
+            <img src="icons/svg/visual-studio-code.svg" alt="VS Code">
           </a>
         </td>
       </tr>
     </tbody>
   </table>
+</details>
 
 ---
 
