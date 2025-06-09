@@ -1,8 +1,10 @@
 <a id="title"></a>
 
-![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)
 ![CodeQL](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/codeql-analysis.yml/badge.svg)
+![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
+![Lint Status](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg?branch=main&label=lint)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)
+![License](https://img.shields.io/github/license/AndriiKot/SQL_SELECT_Mastery)
 
 # SQL SELECT Mastery
 
