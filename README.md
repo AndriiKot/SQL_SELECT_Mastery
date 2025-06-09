@@ -1,6 +1,7 @@
 <a id="title"></a>
 
 ![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)
 
 
 # SQL SELECT Mastery
