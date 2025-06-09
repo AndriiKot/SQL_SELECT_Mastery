@@ -172,38 +172,45 @@
       </tr>
     </tbody>
   </table>
-</details>
 
 ---
 
 ### 🛠️ Technology Descriptions
 
-- **Node.js**
+* **Node.js**
   Node.js is used to run scripts that generate documentation and automate various tasks in the repository.
 
-- **Jest**
+* **Jest**
   Jest is used to test utility functions and logic related to repository automation and content generation. It helps ensure everything works correctly.
 
-- **ESLint**
+* **ESLint**
   ESLint helps keep the code clean and consistent by checking for syntax errors and enforcing coding standards.
 
-- **Prettier**
+* **Prettier**
   Prettier automatically formats the code, making it easier to read and maintain.
 
-- **Git**
+* **Git**
   Git is used for version control, allowing you to track changes, collaborate with others, and manage different versions of the codebase.
 
-- **Git Hooks**
+* **Git Hooks**
   Git hooks are used to run scripts automatically at certain points in the Git workflow (like before committing). In this project, they help enforce code quality and automate formatting.
 
-- **GitHub Actions**
+* **GitHub Actions**
   GitHub Actions is used to automate workflows such as running tests and lint checks on every push or pull request. It helps maintain code quality and stability.
 
-- **Far Manager**
+* **CodeQL**
+  CodeQL is a static analysis tool that scans the codebase for potential security vulnerabilities and code quality issues. It integrates with GitHub Actions to perform automated security checks and publishes results to the repository’s Security tab.
+
+* **Codecov**
+  Codecov is a code coverage reporting tool that integrates with test runners like Jest. It tracks how much of your code is covered by tests and provides visual reports in pull requests to help improve test quality and maintain high coverage.
+
+* **Far Manager**
   Far Manager is a file and archive management tool used for navigating and managing files efficiently, especially in a terminal environment.
 
-- **Visual Studio Code (VS Code)**
+* **Visual Studio Code (VS Code)**
   VS Code is the main code editor used in this project. It supports extensions, formatting tools, and Git integration for a better development experience.
+
+---
 
 </details>
 
