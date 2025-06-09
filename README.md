@@ -2,23 +2,17 @@
 
 # SQL SELECT Mastery
 
-### 📦 Project Info
 ![License](https://img.shields.io/github/license/AndriiKot/SQL_SELECT_Mastery)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)
 ![GitHub contributors](https://img.shields.io/github/contributors/AndriiKot/SQL_SELECT_Mastery)
 
-### 🚀 Build & Code Quality
 ![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
 ![CodeQL](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/codeql-analysis.yml/badge.svg)
 ![ESLint](https://img.shields.io/badge/linted%20with-eslint-blue)
 ![Prettier](https://img.shields.io/badge/styled%20with-prettier-ff69b4)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
-
-### 📦 Dependencies
 ![npm version](https://img.shields.io/github/package-json/v/AndriiKot/SQL_SELECT_Mastery?filename=tools/package.json)
 ![Node.js Version](https://img.shields.io/badge/node-20.x-green)
-
-### 📊 Activity
 ![GitHub issues](https://img.shields.io/github/issues/AndriiKot/SQL_SELECT_Mastery)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AndriiKot/SQL_SELECT_Mastery)
 
