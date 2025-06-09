@@ -2,9 +2,12 @@
 
 ![CodeQL](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/codeql-analysis.yml/badge.svg)
 ![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
-![Lint Status](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg?branch=main&label=lint)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)
 ![License](https://img.shields.io/github/license/AndriiKot/SQL_SELECT_Mastery)
+![Node.js Version](https://img.shields.io/badge/node-20.x-green)
+![Prettier](https://img.shields.io/badge/styled%20with-prettier-ff69b4)
+![ESLint](https://img.shields.io/badge/linted%20with-eslint-blue)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
 
 # SQL SELECT Mastery
 
