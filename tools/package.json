@@ -4,6 +4,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "format": "prettier . --write .",
     "lint": "eslint .",
     "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'"

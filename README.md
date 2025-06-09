@@ -8,6 +8,7 @@
 
 ![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
 ![CodeQL](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/codeql-analysis.yml/badge.svg)
+![codecov](https://codecov.io/gh/AndriiKot/SQL_SELECT_Mastery/branch/main/graph/badge.svg)
 ![ESLint](https://img.shields.io/badge/linted%20with-eslint-blue)
 ![Prettier](https://img.shields.io/badge/styled%20with-prettier-ff69b4)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)

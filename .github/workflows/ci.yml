@@ -41,6 +41,16 @@ jobs:
         run: npm test
         working-directory: tools
 
+      - name: 🧪 Run Tests with Coverage
+        run: npm run test:coverage
+        working-directory: tools
+
+      - name: ☁️ Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          directory: ./tools/coverage
+
       - name: 📝 Generate README.md files
         run: node tools/index.js
 
