@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)
-
+![CodeQL](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/codeql-analysis.yml/badge.svg)
 
 # SQL SELECT Mastery
 
