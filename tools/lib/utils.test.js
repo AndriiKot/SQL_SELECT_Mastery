@@ -7,6 +7,7 @@ const {
   writeReadmeToPaths,
 } = require("./utils");
 const fs = require("node:fs/promises");
+const fsSync = require("fs");
 
 describe("getLessonNumber", () => {
   test("extracts the number from the folder name", () => {
@@ -120,15 +121,21 @@ describe("getFoldersOnly", () => {
   });
 
   test("returns empty array if directory is not readable", async () => {
-    mock({
-      protected: mock.directory({
-        mode: 0o000, // Без прав доступа
-        items: { secret: {} },
-      }),
+    const original = fsSync.readdirSync;
+
+    jest.spyOn(fsSync, "readdirSync").mockImplementation((dir) => {
+      if (dir === "protected") {
+        const error = new Error("Permission denied");
+        error.code = "EACCES";
+        throw error;
+      }
+      return original(dir);
     });
 
     const folders = await getFoldersOnly("protected");
     expect(folders).toEqual([]);
+
+    fsSync.readdirSync.mockRestore();
   });
 
   test("returns empty array for empty directory", async () => {
