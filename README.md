@@ -115,6 +115,7 @@
         <th height=33 width=100>Git</th>
         <th height=33 width=100>Git Hooks</th>
         <th height=33 width=100>GitHub Actions</th>
+        <th height=33 width=100>CodeQL</th>
         <th height=33 width=100>Codecov</th>
       </tr>
     </thead>
@@ -133,6 +134,11 @@
         <td height=100 width=100>
           <a href="https://github.com/features/actions/">
             <img src="icons/svg/githubactionsdarkstheme.svg" alt="GitHub Actions">
+          </a>
+        </td>
+        <td height=100 width=100>
+          <a href="https://codeql.github.com/">
+            <img src="icons/svg/codeql.svg" alt="CodeQL">
           </a>
         </td>
         <td height=100 width=100>
