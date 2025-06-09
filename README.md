@@ -9,7 +9,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/AndriiKot/SQL_SELECT_Mastery)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AndriiKot/SQL_SELECT_Mastery)
 
-
 ![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
 ![CodeQL](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/codeql-analysis.yml/badge.svg)
 ![codecov](https://codecov.io/gh/AndriiKot/SQL_SELECT_Mastery/branch/main/graph/badge.svg)
@@ -18,16 +17,21 @@
 ![Prettier](https://img.shields.io/badge/styled%20with-prettier-ff69b4)
 ![Node.js Version](https://img.shields.io/badge/node-20.x-green)
 
-
 <table>
   <thead>
     <tr>
+      <th height=33 width=100>SQL</th>
       <th height=33 width=100>PostgreSQL</th>
       <th height=33 width=100>DBeaver</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td height=100 width=100>
+        <a href=https://en.wikipedia.org/wiki/SQL>
+          <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/sql.svg alt=SQL>
+        </a>
+      </td>
       <td height=100 width=100>
         <a href=https://www.postgresql.org/docs/>
           <img src=https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/postgresql.svg alt=PostgreSQL>
@@ -47,6 +51,29 @@
     <h4>📦 Other Technologies and Tools</h4>
   </summary>
 
+  <table>
+    <thead>
+      <tr>
+        <th height=33 width=100>Docker</th>
+        <th height=33 width=100>Ubuntu</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+      <tr>
+        <td height=100 width=100>
+          <a href="https://www.docker.com/">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/docker.svg" alt="Docker">
+          </a>
+        </td>
+        <td height=100 width=100>
+          <a href="https://ubuntu.com/">
+            <img src="https://github.com/AndriiKot/SQL_SELECT_Mastery/blob/main/icons/svg/ubuntu.svg" alt="Ubuntu">
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
   <table>
     <thead>
       <tr>
