@@ -25,13 +25,13 @@ Using the `actor` table, perform these operations:
 ```sql
 SELECT
   first_name,
-  length(first_name) AS name_length
+  LENGTH(first_name) AS name_length
 FROM actor;
 
 -- or variation
 SELECT
   first_name,
-  char_length(first_name) AS name_length
+  CHAR_LENGTH(first_name) AS name_length
 FROM actor;
 ```
 
@@ -40,7 +40,7 @@ FROM actor;
 ```sql
 SELECT
   first_name,
-  lower(first_name) AS lowercase_name
+  LOWER(first_name) AS lowercase_name
 FROM actor;
 ```
 
@@ -49,7 +49,7 @@ FROM actor;
 ```sql
 SELECT
   first_name,
-  upper(first_name) AS uppercase_name
+  UPPER(first_name) AS uppercase_name
 FROM actor;
 ```
 
@@ -57,7 +57,7 @@ FROM actor;
 
 ```sql
 SELECT
-  concat(first_name, ' ', last_name) AS full_name
+  CONCAT(first_name, ' ', last_name) AS full_name
 FROM actor;
 
 -- or variation
@@ -67,7 +67,7 @@ FROM actor;
 
 -- or variation
 SELECT
-  concat_ws(' ', first_name, last_name) AS full_name
+  CONCAT_WS(' ', first_name, last_name) AS full_name
 FROM actor;
 ```
 
@@ -75,7 +75,7 @@ FROM actor;
 
 ```sql
 SELECT
-  initcap(concat(first_name, ' ', last_name)) AS "Full Name"
+  INITCAP(CONCAT(first_name, ' ', last_name)) AS "Full Name"
 FROM actor;
 ```
 
@@ -83,7 +83,7 @@ FROM actor;
    ```sql
    SELECT
      first_name,
-     lower(left(first_name, length(first_name)-1)) || upper(right(first_name, 1)) AS modified_name
+     LOWER(LEFT(first_name, LENGTH(first_name)-1)) || UPPER(right(first_name, 1)) AS modified_name
    FROM actor;
    ```
    </details>
@@ -105,7 +105,7 @@ Key features to note:
 
 [Back to Top](#title)
 
-```
+
 
 ### Core String Functions
 
