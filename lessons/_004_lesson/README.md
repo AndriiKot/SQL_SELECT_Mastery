@@ -54,7 +54,11 @@ SELECT 'email@domain' AS original_text;
 
 
 <details>
-<summary><b>View Solutions</b></summary>
+<summary>
+
+### Solutions
+
+</summary>
 
 ### Solutions
 
@@ -126,8 +130,6 @@ FROM actor;
    FROM actor;
    ```
 
-   </details>
-
 7. **Delete leading and trailing spaces:**
 ```sql
 SELECT TRIM('   some text   ') AS trimmed_text;
@@ -176,6 +178,7 @@ SELECT STRPOS('email@domain', '@') AS position_of_at;
 
 ```
 
+</details>
 
 ---
 
