@@ -1,3 +1,5 @@
+<a name="title"></a>
+
 ## Mathematical Operations in PostgreSQL:
 
 PostgreSQL supports a wide range of mathematical operations that can be performed directly in SQL queries. These operations include addition, subtraction, multiplication, division, exponentiation, modulo, integer division, rounding, and more. These are useful for manipulating numerical data directly in your queries.
