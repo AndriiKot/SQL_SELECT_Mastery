@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/github/package-json/v/AndriiKot/SQL_SELECT_Mastery?filename=tools/package.json)](https://docs.npmjs.com/about-semantic-versioning)
 [![License](https://img.shields.io/github/license/AndriiKot/SQL_SELECT_Mastery)](https://choosealicense.com/licenses/mit/)
+[![GitHub stars](https://img.shields.io/github/stars/AndriiKot/SQL_SELECT_Mastery?style=social)](https://github.com/AndriiKot/SQL_SELECT_Mastery/stargazers)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)](https://github.com/AndriiKot/SQL_SELECT_Mastery/commits/main)
 [![GitHub contributors](https://img.shields.io/github/contributors/AndriiKot/SQL_SELECT_Mastery)](https://github.com/AndriiKot/SQL_SELECT_Mastery/graphs/contributors)
 [![GitHub issues](https://img.shields.io/github/issues/AndriiKot/SQL_SELECT_Mastery)](https://github.com/AndriiKot/SQL_SELECT_Mastery/issues)
