@@ -16,6 +16,42 @@ Using the `actor` table, perform these operations:
 4. Concatenate first and last names with a space
 5. Format names as first_name last_name (proper capitalization) as "Full Name"
 6. Display first names with only the last character capitalized
+7. Delete leading and trailing spaces
+
+```sql
+SELECT ' some text ' AS original_text;
+```
+
+8. Delete only leading spaces
+
+```sql
+SELECT '   some text   ' AS original_text;
+```
+
+9. Delete only trailing spaces
+
+```sql
+SELECT '   some text   ' AS original_text;
+```
+
+10. Get the first three letters from a string 'PostgreSQL'
+
+```sql
+SELECT 'PostgreSQL' AS original_text;
+```
+
+11. Delete the 'Post' from a string 'PostgreSQL' if it starts with it
+
+```sql
+SELECT 'PostgreSQL' AS original_text;
+```
+
+12. Get position of a character '@' in a string
+
+```sql
+SELECT 'email@domain' AS original_text;
+```
+
 
 <details>
 <summary><b>View Solutions</b></summary>
@@ -23,6 +59,7 @@ Using the `actor` table, perform these operations:
 ### Solutions
 
 1. **Name length:**
+
 ```sql
 SELECT
   first_name,
@@ -81,13 +118,64 @@ FROM actor;
 ```
 
 6. **Last character capitalized:**
+
    ```sql
    SELECT
      first_name,
-     LOWER(LEFT(first_name, LENGTH(first_name)-1)) || UPPER(right(first_name, 1)) AS modified_name
+     LOWER(LEFT(first_name, LENGTH(first_name)-1)) || UPPER(RIGHT(first_name, 1)) AS modified_name
    FROM actor;
    ```
+
    </details>
+
+7. **Delete leading and trailing spaces:**
+```sql
+SELECT TRIM('   some text   ') AS trimmed_text;
+```
+8. **Delete only leading spaces:**
+
+```sql
+SELECT LTRIM('   some text   ') AS trimmed_text;
+```
+
+9. **Delete only trailing spaces:**
+
+```sql
+SELECT RTRIM('   some text   ') AS trimmed_text;
+```
+
+10. **Get the first three letters from a string 'PostgreSQL':**
+
+```sql
+SELECT SUBSTRING('PostgreSQL' FROM 1 FOR 3) AS first_three_letters;
+
+-- or variation
+SELECT SUBSTRING('PostgreSQL', 1, 3) AS first_three_letters;
+
+-- or variation
+SELECT LEFT('PostgreSQL', 3) AS first_three_letters;
+
+-- or variation
+SELECT SUBSTR('PostgreSQL', 1, 3) AS first_three_letters;
+```
+
+11. **Delete the 'Post' from a string 'PostgreSQL' if it starts with it:**
+
+```sql
+   SELECT LTRIM('PostgreSQL', 'Post') AS trimmed_text;
+```
+
+12. **Get position of a character '@' in a string:**
+
+```sql
+SELECT POSITION('@' IN 'email@domain') AS position_of_at;
+
+-- or variation
+
+SELECT STRPOS('email@domain', '@') AS position_of_at;
+
+```
+
 
 ---
 
@@ -105,8 +193,6 @@ Key features to note:
 - Many functions support multibyte character sets (UTF-8)
 
 [Back to Top](#title)
-
-
 
 ### Core String Functions
 
