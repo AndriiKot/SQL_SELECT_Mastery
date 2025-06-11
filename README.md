@@ -2,22 +2,21 @@
 
 # SQL SELECT Mastery
 
-![npm version](https://img.shields.io/github/package-json/v/AndriiKot/SQL_SELECT_Mastery?filename=tools/package.json)
-![License](https://img.shields.io/github/license/AndriiKot/SQL_SELECT_Mastery)
-![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)
-![GitHub contributors](https://img.shields.io/github/contributors/AndriiKot/SQL_SELECT_Mastery)
-![GitHub issues](https://img.shields.io/github/issues/AndriiKot/SQL_SELECT_Mastery)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AndriiKot/SQL_SELECT_Mastery)
+[![npm version](https://img.shields.io/github/package-json/v/AndriiKot/SQL_SELECT_Mastery?filename=tools/package.json)](https://docs.npmjs.com/about-semantic-versioning)
+[![License](https://img.shields.io/github/license/AndriiKot/SQL_SELECT_Mastery)](https://choosealicense.com/licenses/mit/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/AndriiKot/SQL_SELECT_Mastery)](https://github.com/AndriiKot/SQL_SELECT_Mastery/commits/main)
+[![GitHub contributors](https://img.shields.io/github/contributors/AndriiKot/SQL_SELECT_Mastery)](https://github.com/AndriiKot/SQL_SELECT_Mastery/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/AndriiKot/SQL_SELECT_Mastery)](https://github.com/AndriiKot/SQL_SELECT_Mastery/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/AndriiKot/SQL_SELECT_Mastery)](https://github.com/AndriiKot/SQL_SELECT_Mastery/pulls)
 
-![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)
-![CodeQL](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/codeql-analysis.yml/badge.svg)
-![codecov](https://codecov.io/gh/AndriiKot/SQL_SELECT_Mastery/branch/main/graph/badge.svg)
-![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
-![ESLint](https://img.shields.io/badge/linted%20with-eslint-blue)
-![Prettier](https://img.shields.io/badge/styled%20with-prettier-ff69b4)
-![Node.js Version](https://img.shields.io/badge/node-20.x-green)
+[![CI](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/ci.yml/badge.svg)](https://docs.github.com/en/actions)
+[![CodeQL](https://github.com/AndriiKot/SQL_SELECT_Mastery/actions/workflows/codeql-analysis.yml/badge.svg)](https://codeql.github.com/)
+[![codecov](https://codecov.io/gh/AndriiKot/SQL_SELECT_Mastery/branch/main/graph/badge.svg)](https://about.codecov.io/)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](https://jestjs.io/)
+[![ESLint](https://img.shields.io/badge/linted%20with-eslint-blue)](https://eslint.org/)
+[![Prettier](https://img.shields.io/badge/styled%20with-prettier-ff69b4)](https://prettier.io/)
+[![Node.js Version](https://img.shields.io/badge/node-20.x-green)](https://nodejs.org/en/docs)<table>
 
-<table>
   <thead>
     <tr>
       <th height=33 width=100>SQL</th>
@@ -177,37 +176,37 @@
 
 ### 🛠️ Technology Descriptions
 
-* **Node.js**
+- **Node.js**
   Node.js is used to run scripts that generate documentation and automate various tasks in the repository.
 
-* **Jest**
+- **Jest**
   Jest is used to test utility functions and logic related to repository automation and content generation. It helps ensure everything works correctly.
 
-* **ESLint**
+- **ESLint**
   ESLint helps keep the code clean and consistent by checking for syntax errors and enforcing coding standards.
 
-* **Prettier**
+- **Prettier**
   Prettier automatically formats the code, making it easier to read and maintain.
 
-* **Git**
+- **Git**
   Git is used for version control, allowing you to track changes, collaborate with others, and manage different versions of the codebase.
 
-* **Git Hooks**
+- **Git Hooks**
   Git hooks are used to run scripts automatically at certain points in the Git workflow (like before committing). In this project, they help enforce code quality and automate formatting.
 
-* **GitHub Actions**
+- **GitHub Actions**
   GitHub Actions is used to automate workflows such as running tests and lint checks on every push or pull request. It helps maintain code quality and stability.
 
-* **CodeQL**
+- **CodeQL**
   CodeQL is a static analysis tool that scans the codebase for potential security vulnerabilities and code quality issues. It integrates with GitHub Actions to perform automated security checks and publishes results to the repository’s Security tab.
 
-* **Codecov**
+- **Codecov**
   Codecov is a code coverage reporting tool that integrates with test runners like Jest. It tracks how much of your code is covered by tests and provides visual reports in pull requests to help improve test quality and maintain high coverage.
 
-* **Far Manager**
+- **Far Manager**
   Far Manager is a file and archive management tool used for navigating and managing files efficiently, especially in a terminal environment.
 
-* **Visual Studio Code (VS Code)**
+- **Visual Studio Code (VS Code)**
   VS Code is the main code editor used in this project. It supports extensions, formatting tools, and Git integration for a better development experience.
 
 ---
