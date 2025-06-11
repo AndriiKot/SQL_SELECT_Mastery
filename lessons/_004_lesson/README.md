@@ -123,12 +123,12 @@ FROM actor;
 
 6. **Last character capitalized:**
 
-   ```sql
-   SELECT
-     first_name,
-     LOWER(LEFT(first_name, LENGTH(first_name)-1)) || UPPER(RIGHT(first_name, 1)) AS modified_name
-   FROM actor;
-   ```
+```sql
+SELECT
+  first_name,
+  LOWER(LEFT(first_name, LENGTH(first_name)-1)) || UPPER(RIGHT(first_name, 1)) AS modified_name
+FROM actor;
+```
 
 7. **Delete leading and trailing spaces:**
 ```sql
@@ -164,7 +164,7 @@ SELECT SUBSTR('PostgreSQL', 1, 3) AS first_three_letters;
 11. **Delete the 'Post' from a string 'PostgreSQL' if it starts with it:**
 
 ```sql
-   SELECT LTRIM('PostgreSQL', 'Post') AS trimmed_text;
+SELECT LTRIM('PostgreSQL', 'Post') AS trimmed_text;
 ```
 
 12. **Get position of a character '@' in a string:**
