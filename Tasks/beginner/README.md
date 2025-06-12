@@ -28,6 +28,7 @@
 
 [Easy SQL: LowerCase](https://www.codewars.com/kata/594800ba6fb152624300006d/sql)
 
+
 </details>
 
 <details>
@@ -44,6 +45,8 @@
 [SQL Basics: Mod](https://www.codewars.com/kata/594a9592704e4d21bc000131/sql)
 
 [Easy SQL: Square Root and Log](https://www.codewars.com/kata/594a691720ac16a544000075/sql)
+
+[Multiply](https://www.codewars.com/kata/50654ddff44f800200000004/sql)
 
 </details>
 
