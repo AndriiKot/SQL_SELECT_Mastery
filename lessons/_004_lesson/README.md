@@ -6,7 +6,7 @@ PostgreSQL provides a comprehensive set of string manipulation functions that ca
 
 ---
 
-## Practical Exercises
+#### Exercises
 
 Using the `actor` table, perform these operations:
 
@@ -59,8 +59,6 @@ SELECT 'email@domain' AS original_text;
 ### Solutions
 
 </summary>
-
-### Solutions
 
 1. **Name length:**
 

@@ -1,5 +1,46 @@
 <a id="title"></a>
 
+## Beginner Tasks
+
+1. From the staff table, how can you extract the first part of the email field (everything before the @ symbol)?
+
+<details>
+    <summary>
+
+### Solutions
+
+1. You can use the substring (or split_part) function together with position (or strpos) to extract the part before the @ symbol:
+
+```sql
+
+SELECT
+    email,
+    substring(email FROM '^[^@]+') AS username
+FROM
+    staff;
+
+SELECT
+    email,
+    split_part(email, '@', 1) AS username
+FROM
+    staff;
+
+
+SELECT
+    email,
+    substring(email, 1, strpos(email,'@') - 1) AS username
+FROM
+    staff;
+
+SELECT
+    email,
+    substring(email FROM 1 FOR position('@' IN email) - 1) AS username
+FROM
+    staff;
+```
+    </summary>
+</details>
+
 ##### More projects codeWars beginner
 
 <details>
