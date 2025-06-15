@@ -4,10 +4,17 @@
 
 1. From the staff table, how can you extract the first part of the email field (everything before the @ symbol)?
 
+2. From the film table, get the title and description columns, and if the description column starts with 'A ', then remove it.
+
+3. From the film table, get the first word from the title column.
+
 <details>
-    <summary>
+
+<summary>
 
 ### Solutions
+
+</summary>
 
 1. You can use the substring (or split_part) function together with position (or strpos) to extract the part before the @ symbol:
 
@@ -38,7 +45,66 @@ SELECT
 FROM
     staff;
 ```
-    </summary>
+
+2. You can use the REGEXP_REPLACE(LTRIM or CASE, TRIM) function to remove the 'A ' from the description column:
+
+```sql
+
+SELECT
+	title,
+	LTRIM(f.description, 'A ') AS "With LTRIM",
+	TRIM(leading f.description, 'A ' ) AS "With TRIM"
+FROM
+	film f;
+
+SELECT
+    TITLE,
+    REGEXP_REPLACE(DESCRIPTION, '^A ', '', 1) AS DESCRIPTION
+FROM
+    FILM;
+
+
+SELECT
+    TITLE,
+    CASE
+        WHEN DESCRIPTION LIKE 'A %' THEN SUBSTRING(DESCRIPTION FROM 3)
+        ELSE DESCRIPTION
+    END AS DESCRIPTION
+FROM
+    FILM;
+
+```
+
+3. You can use the split_part (substring, ...) function to get the first word from the title column:
+
+```sql
+SELECT
+    SUBSTRING(TITLE FROM '^\w+') AS FIRST_WORD
+FROM
+    FILM;
+
+SELECT
+    LEFT(TITLE, POSITION(' ' IN TITLE) - 1) AS FIRST_WORD
+FROM
+    FILM;
+
+SELECT
+    SPLIT_PART(TITLE, ' ', 1) AS FIRST_WORD
+FROM
+    FILM;
+
+SELECT
+    (REGEXP_MATCHES(TITLE, '^\w+'))[1] AS FIRST_WORD
+FROM
+    FILM;
+
+SELECT
+    SUBSTRING(TITLE, 1, STRPOS(TITLE, ' ') - 1) AS FIRST_WORD
+FROM
+    FILM;
+
+```
+
 </details>
 
 ##### More projects codeWars beginner
@@ -49,7 +115,6 @@ FROM
 ##### Strings Practice
 
 </summary>
-
 
 [Remove First and Last Character](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/sql)
 
@@ -68,7 +133,6 @@ FROM
 [Remove exclamation marks](https://www.codewars.com/kata/57a0885cbb9944e24c00008e/sql)
 
 [Easy SQL: LowerCase](https://www.codewars.com/kata/594800ba6fb152624300006d/sql)
-
 
 </details>
 
@@ -90,4 +154,3 @@ FROM
 [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004/sql)
 
 </details>
-
