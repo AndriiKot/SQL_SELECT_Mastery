@@ -18,6 +18,7 @@ FROM
 2. What will the field name be in the following query?
 
 ```sql
+SELECT
     first_name as firstName,
     last_name as lastName
 FROM
@@ -60,6 +61,7 @@ FROM
 ##### For example:
 
 ```sql
+SELECT
     first_name as firstName,
     last_name as lastName
 FROM
@@ -77,6 +79,7 @@ FROM
 ##### For example:
 
 ```sql
+SELECT
    first_name as "First Name",
    last_name as "Last Name"
 FROM
@@ -91,6 +94,7 @@ FROM
 ##### For example:
 
 ```sql
+SELECT
     first_name as "select",
     last_name as "SELECT"
 FROM
@@ -105,6 +109,7 @@ FROM
 ##### For example:
 
 ```sql
+SELECT
     first_name as "👨",
     last_name as "👩"
 FROM
