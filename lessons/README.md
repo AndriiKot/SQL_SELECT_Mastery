@@ -8,3 +8,4 @@
 - [3. Mathematical Operations in PostgreSQL](/lessons/_003_lesson/)
 - [4. String Functions in PostgreSQL](/lessons/_004_lesson/)
 - [5. Logical Operators and Expressions in PostgreSQL](/lessons/_005_lesson/)
+- [6. Combining Logical Expressions in PostgreSQL](/lessons/_006_lesson/)
